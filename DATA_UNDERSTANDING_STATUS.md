@@ -42,6 +42,12 @@ Before defining KPIs or building models, the project must establish whether the 
 
 The repository intentionally excludes raw data, and the reviewed fourteen-file snapshot is not available in this environment. The next evidence run requires the original CSV files to be restored under `data/raw/` while remaining ignored by Git.
 
+The repository now includes a strict evidence builder and tests. Once the raw
+snapshot is restored, `python scripts/build_data_understanding_evidence.py`
+will generate checksums, structural profiles, temporal evidence and explicitly
+configured relationship tests. The relationship config remains empty until the
+exact source schema is available; this is a deliberate evidence boundary.
+
 ## Required Evidence Package
 
 The PR-0002 completion package must generate:

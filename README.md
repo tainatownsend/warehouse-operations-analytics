@@ -70,6 +70,24 @@ See [`data/README.md`](data/README.md).
 
 See [Data Understanding Status](DATA_UNDERSTANDING_STATUS.md) for the evidence boundary and next validation gate.
 
+### Reproducible Evidence Command
+
+After restoring all fourteen source CSVs under `data/raw/`, run:
+
+```bash
+python scripts/build_data_understanding_evidence.py
+```
+
+The command is strict by default: an incomplete snapshot stops the build. It
+generates checksummed inventory, column/null/uniqueness profiles, temporal
+coverage, configured relationship tests, and an evidence-boundary report.
+Use `--allow-partial` only for diagnostic profiling; partial output is not a
+completion artifact for PR-0002.
+
+Relationships are intentionally empty in the initial config until the source
+schema is restored and the exact table/column pairs can be confirmed. This
+prevents remembered or guessed links from being published as evidence.
+
 ## Principles
 
 - Business questions before algorithms
