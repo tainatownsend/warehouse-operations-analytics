@@ -88,6 +88,9 @@ Relationships are intentionally empty in the initial config until the source
 schema is restored and the exact table/column pairs can be confirmed. This
 prevents remembered or guessed links from being published as evidence.
 
+The pull request quality gate runs Ruff and Pytest in GitHub Actions without
+requiring the private raw snapshot.
+
 ## Principles
 
 - Business questions before algorithms
