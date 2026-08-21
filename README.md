@@ -57,14 +57,18 @@ See [`data/README.md`](data/README.md).
 
 ## Current Status
 
-**PR-0001 — Project Foundation**
+**PR-0002 — Data Understanding (in progress)**
 
-- [x] Business problem framed
-- [x] Initial scope documented
-- [x] Reproducible repository structure created
-- [ ] Raw data acquired and inventoried
-- [ ] Data model reviewed
-- [ ] Initial exploratory analysis completed
+- [x] Business problem and analytical scope framed
+- [x] Fourteen source tables identified
+- [x] Core key candidates for routes, loads, and trips reviewed
+- [x] Tested relationships showed no orphan foreign keys
+- [x] Loads and trips were observed as one-to-one in the reviewed snapshot
+- [ ] Re-run the evidence from a reproducible repository workflow
+- [ ] Complete the wider relationship map and temporal coverage review
+- [ ] Publish quality limitations and their business implications
+
+See [Data Understanding Status](DATA_UNDERSTANDING_STATUS.md) for the evidence boundary and next validation gate.
 
 ## Principles
 
