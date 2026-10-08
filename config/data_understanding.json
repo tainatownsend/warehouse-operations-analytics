@@ -1,0 +1,27 @@
+{
+  "expected_tables": [
+    "customers",
+    "delivery_events",
+    "driver_monthly_metrics",
+    "drivers",
+    "facilities",
+    "fuel_purchases",
+    "loads",
+    "maintenance_records",
+    "routes",
+    "safety_incidents",
+    "trailers",
+    "trips",
+    "truck_utilization_metrics",
+    "trucks"
+  ],
+  "temporal_fields": [
+    "scheduled_datetime",
+    "dispatch_date",
+    "load_date",
+    "actual_datetime",
+    "purchase_date",
+    "maintenance_date"
+  ],
+  "relationships": []
+}
