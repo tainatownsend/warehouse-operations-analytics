@@ -1,6 +1,6 @@
 # Business Problem | Discovery Worksheet
 
-> **Status:** To be completed by the project owner. Start here **before writing code**.
+> **Status:** DEFERRED until an approved lululemon corporate case is completed and reviewed, including a Power BI report. Do not fill this public worksheet first. When Phase 2 begins, use it **before writing public code**.
 
 This document records public-safe, reviewable decisions. In the learning phase, complete the companion Business Problem Canvas in your personal Google Drive. Transfer confirmed, public-safe answers here when ready; do not copy any confidential workplace information or private Google Drive links.
 
@@ -54,7 +54,11 @@ This document records public-safe, reviewable decisions. In the learning phase, 
 - **What cannot be concluded:** _Prediction accuracy alone does not prove replenishment or cost impact._
 - **Disclosure:** _Only independent public analysis. Never publish corporate data or proprietary rules._
 
-## First exercise (Sprint 0)
+## Future Power BI deliverable
+
+The independent M5 case will include a professional Power BI report, with validated DAX measures, model relationships, forecast evaluation, usable slicers/drillthrough when justified, accessible visual hierarchy, and a decision-oriented executive overview. The content must use only public data and independently authored logic.
+
+## First exercise (Sprint 0, Phase 2 only)
 
 Answer these four questions **in your own words** in the Canvas:
 
