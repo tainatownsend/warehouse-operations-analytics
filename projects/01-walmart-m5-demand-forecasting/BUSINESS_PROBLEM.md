@@ -2,7 +2,7 @@
 
 > **Status:** To be completed by the project owner. Start here **before writing code**.
 
-This document records public-safe, reviewable decisions. In the learning phase, complete the guided [Google Drive Business Problem Canvas](https://docs.google.com/document/d/1-SCUQBN3yFrIbbrnhsnwxgMmSsu97GCnUiFVXDAgM_M/edit). Transfer your confirmed answers here when ready; do not copy any confidential workplace information.
+This document records public-safe, reviewable decisions. In the learning phase, complete the companion Business Problem Canvas in your personal Google Drive. Transfer confirmed, public-safe answers here when ready; do not copy any confidential workplace information or private Google Drive links.
 
 ## 1. Situation (business understanding)
 
