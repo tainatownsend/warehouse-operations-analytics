@@ -1,6 +1,8 @@
 # Retail Demand Forecasting | Walmart M5
 
-> **Status:** Discovery (not started) · **Track:** Independent public-data portfolio · **Last updated:** 2026-10-16
+> **Status:** Deferred, Phase 2 (not started) · **Track:** Independent public-data portfolio · **Last updated:** 2026-10-16
+
+> **Portfolio sequence:** First complete an authorized, company-environment-only operational case including a production-quality **Power BI report**, technical work, validation, and business communication. Only afterward develop this independent Walmart M5 project with a new public-data Power BI report. No corporate data, queries, models or designs will be reused.
 
 ## At a glance
 
@@ -42,6 +44,7 @@ See [Business Problem](BUSINESS_PROBLEM.md) for the editable, version-controlled
 
 ## Planned portfolio deliverables
 
+- Independent public-data Power BI report (.pbix where sharable), semantic model, DAX measures, decision-focused pages, UX and accessibility validation
 - Public-source data dictionary and acquisition instructions
 - SQL/Python exploratory analysis and reproducible Colab notebooks
 - Seasonal baseline, temporal backtests and model comparisons
